@@ -80,10 +80,10 @@ class MyHomePage extends StatelessWidget {
                 },
                 key: ValueKey(contact.id),
                 child: Material(
-                  color: Colors.white,
+
+                  color: Colors.grey[300],
                   elevation: 6.0,
                   child: ListTile(
-
                     title: Text(contact.name),
                   ),
                 ),
